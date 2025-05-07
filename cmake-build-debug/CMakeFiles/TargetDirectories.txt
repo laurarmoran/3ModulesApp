@@ -1,0 +1,3 @@
+/home/laura/MyProjects/3ModulesApp/cmake-build-debug/CMakeFiles/3ModulesApp.dir
+/home/laura/MyProjects/3ModulesApp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/laura/MyProjects/3ModulesApp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
