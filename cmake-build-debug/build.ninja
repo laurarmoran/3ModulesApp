@@ -49,26 +49,26 @@ cmake_ninja_workdir = /home/laura/MyProjects/3ModulesApp/cmake-build-debug/
 
 build cmake_object_order_depends_target_3ModulesApp: phony || .
 
-build CMakeFiles/3ModulesApp.dir/src/main.cpp.o: CXX_COMPILER__3ModulesApp_unscanned_Debug /home/laura/MyProjects/3ModulesApp/cmake-build-debug/src/main.cpp || cmake_object_order_depends_target_3ModulesApp
+build CMakeFiles/3ModulesApp.dir/src/main.cpp.o: CXX_COMPILER__3ModulesApp_unscanned_Debug /home/laura/MyProjects/3ModulesApp/src/main.cpp || cmake_object_order_depends_target_3ModulesApp
   DEP_FILE = CMakeFiles/3ModulesApp.dir/src/main.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/3ModulesApp.dir
   OBJECT_FILE_DIR = CMakeFiles/3ModulesApp.dir/src
 
-build CMakeFiles/3ModulesApp.dir/src/BytesGen.cpp.o: CXX_COMPILER__3ModulesApp_unscanned_Debug /home/laura/MyProjects/3ModulesApp/cmake-build-debug/src/BytesGen.cpp || cmake_object_order_depends_target_3ModulesApp
-  DEP_FILE = CMakeFiles/3ModulesApp.dir/src/BytesGen.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/3ModulesApp.dir
-  OBJECT_FILE_DIR = CMakeFiles/3ModulesApp.dir/src
-
-build CMakeFiles/3ModulesApp.dir/src/BytesGenerator.cpp.o: CXX_COMPILER__3ModulesApp_unscanned_Debug /home/laura/MyProjects/3ModulesApp/cmake-build-debug/src/BytesGenerator.cpp || cmake_object_order_depends_target_3ModulesApp
+build CMakeFiles/3ModulesApp.dir/src/BytesGenerator.cpp.o: CXX_COMPILER__3ModulesApp_unscanned_Debug /home/laura/MyProjects/3ModulesApp/src/BytesGenerator.cpp || cmake_object_order_depends_target_3ModulesApp
   DEP_FILE = CMakeFiles/3ModulesApp.dir/src/BytesGenerator.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/3ModulesApp.dir
   OBJECT_FILE_DIR = CMakeFiles/3ModulesApp.dir/src
 
-build CMakeFiles/3ModulesApp.dir/src/sequenceFinder.cpp.o: CXX_COMPILER__3ModulesApp_unscanned_Debug /home/laura/MyProjects/3ModulesApp/cmake-build-debug/src/sequenceFinder.cpp || cmake_object_order_depends_target_3ModulesApp
-  DEP_FILE = CMakeFiles/3ModulesApp.dir/src/sequenceFinder.cpp.o.d
+build CMakeFiles/3ModulesApp.dir/src/SequenceFinder.cpp.o: CXX_COMPILER__3ModulesApp_unscanned_Debug /home/laura/MyProjects/3ModulesApp/src/SequenceFinder.cpp || cmake_object_order_depends_target_3ModulesApp
+  DEP_FILE = CMakeFiles/3ModulesApp.dir/src/SequenceFinder.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/3ModulesApp.dir
+  OBJECT_FILE_DIR = CMakeFiles/3ModulesApp.dir/src
+
+build CMakeFiles/3ModulesApp.dir/src/BytesRecorder.cpp.o: CXX_COMPILER__3ModulesApp_unscanned_Debug /home/laura/MyProjects/3ModulesApp/src/BytesRecorder.cpp || cmake_object_order_depends_target_3ModulesApp
+  DEP_FILE = CMakeFiles/3ModulesApp.dir/src/BytesRecorder.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/3ModulesApp.dir
   OBJECT_FILE_DIR = CMakeFiles/3ModulesApp.dir/src
@@ -81,7 +81,7 @@ build CMakeFiles/3ModulesApp.dir/src/sequenceFinder.cpp.o: CXX_COMPILER__3Module
 #############################################
 # Link the executable 3ModulesApp
 
-build 3ModulesApp: CXX_EXECUTABLE_LINKER__3ModulesApp_Debug CMakeFiles/3ModulesApp.dir/src/main.cpp.o CMakeFiles/3ModulesApp.dir/src/BytesGen.cpp.o CMakeFiles/3ModulesApp.dir/src/BytesGenerator.cpp.o CMakeFiles/3ModulesApp.dir/src/sequenceFinder.cpp.o
+build 3ModulesApp: CXX_EXECUTABLE_LINKER__3ModulesApp_Debug CMakeFiles/3ModulesApp.dir/src/main.cpp.o CMakeFiles/3ModulesApp.dir/src/BytesGenerator.cpp.o CMakeFiles/3ModulesApp.dir/src/SequenceFinder.cpp.o CMakeFiles/3ModulesApp.dir/src/BytesRecorder.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/3ModulesApp.dir
   POST_BUILD = :
